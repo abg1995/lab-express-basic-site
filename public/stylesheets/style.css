@@ -1,10 +1,12 @@
 body{
 text-align: center;
-    background-color: darkgreen;
+    
+background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/the-shire-andrew-read.jpg");
+background-size: cover;
 }
 
 h1{
-    color: aliceblue;
+    color: rgb(204, 15, 15);
 
 }
 
@@ -13,4 +15,36 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+li{
+    border: 2.5px solid black;
+    text-decoration: none;
+    background-color: aliceblue;
+
+}
+
+a{
+    text-decoration: none;
+    color:brown;
+    padding: 35px 50px;
+    margin: 35px 50px;
+
+
+}
+
+h4{
+    font-size: large;
+    color:rgb(212, 22, 22) ;
+}
+
+p{
+    max-width: 700px;
+    margin-left: 25%;
+    color: rgb(195, 170, 24);
+}
+
+.text{
+    background-color: rgb(51, 70, 52);
+    border-radius: 22%;
 }
