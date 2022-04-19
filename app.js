@@ -16,6 +16,10 @@ app.get("/works", (req, res, next) => {
     res.sendFile(__dirname +'/view/works.html');
 });
 
+app.get("/gallery", (req,res,next) => {
+    res.sendFile(__dirname + '/view/gallery.html');
+})
+
 app.listen(3000, () => {
     console.log("listening")
 })
